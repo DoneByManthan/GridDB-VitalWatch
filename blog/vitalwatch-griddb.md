@@ -566,25 +566,21 @@ After running the system, the monitoring dashboard displays the real-time health
 
 In the normal state, all wearers show green status indicators and a fleet risk score near 0. The escalation timeline panel is empty, confirming no status transitions have occurred.
 
-![Normal State](images/normal_state.png)
 
 **Stress Detected**
 
 As the athlete's heart rate climbs and SpO2 begins to fall, individual vital signs transition to warning state. The athlete card updates to "Stress" and the overall risk score begins rising.
 
-![Stress State](images/stress_state.png)
 
 **Physiological Chains Active**
 
 When the athlete's SpO2 drops into the danger zone while heart rate is simultaneously elevated, the system fires a chain alert: "Oxygen-Cardiac Chain: Falling SpO2 is driving compensatory heart rate elevation." A second chain may fire if body temperature also begins rising.
 
-![Chain Alerts](images/chain_active.png)
 
 **Alert Resolved**
 
 Once the operator clicks "Alert Addressed," the simulation stops, recovery readings are injected, and the dashboard returns to normal. The risk score drops back toward zero and chain alerts clear.
 
-![Alert Resolved](images/alert_resolved.png)
 
 By visualizing vital sign trends, physiological chain events, and fleet risk levels together, the dashboard gives health monitoring operators a clear and actionable picture of wearer health states.
 
