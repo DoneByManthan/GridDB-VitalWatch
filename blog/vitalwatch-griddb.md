@@ -495,7 +495,7 @@ SpO2 and heart rate emerge as the most predictive features — a result that ali
 ## Building the Monitoring Dashboard
 
 Visualization is essential for making vital sign data actionable. The VitalWatch dashboard was built using HTML, JavaScript, and Chart.js to display real-time wearer status, vital sign trend charts, physiological chain alerts, and the fleet-wide health risk score.
-
+![Dashboard](images/dashboard.png)
 The Flask backend exposes three main data API endpoints that the dashboard polls every three seconds:
 
 | Endpoint | What it returns |
